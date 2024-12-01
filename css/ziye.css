@@ -1,0 +1,461 @@
+@charset "gb2312";
+/* CSS Document */
+*
+{
+	margin:0;
+	padding:0;
+	border:0;
+	text-decoration:none;
+	list-style:none;
+}
+
+body
+{
+	background:url(../img/bg.jpg);;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-size:14px;
+	color:#bd4601;
+	overflow-x:hidden
+}
+
+a
+{
+	color:#bd4601;
+}
+
+a:hover
+{
+	color:#f96125;
+}
+
+.outBox
+{
+	position:relative;
+	left:50%;
+	margin-left:-995px;
+	width:1990px;
+}
+
+/****************************²Ëµ¥¡ý********************************/
+
+.topBox
+{
+	width:1480px;
+	height:106px;
+	margin:auto;
+	/*border:1px solid #F00;*/
+}
+
+.topBox img
+{
+	float:left
+}
+
+.menu
+{
+/*	border:1px solid #F00;*/
+	font-size:20px;
+	margin-top:60px;
+	float:left
+}
+
+.menu ul
+{
+	/*border:1px solid #F00;*/
+}
+
+.menu ul li 
+{
+	float:left;
+	margin-right:40px;
+	display:block;
+	width:110px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+}
+
+.menu ul li a
+{
+	text-align:center;
+	display:block;
+}
+
+.menu .caidan2 ul li
+{
+	display:block;
+}
+
+.menu ul li ul
+{
+	display:none;
+	position:absolute;
+	z-index:100
+}
+
+.menu ul li ul li
+{
+	font-size:16px;
+	float:none;
+}
+
+.menu ul li ul li a
+{
+	display:block;
+	background:#191003;
+
+}
+
+.menu ul li ul li a:hover
+{
+	color:#993200
+}
+
+.topBox a
+{
+	color:#cfcfcf;
+}
+
+.topBox a:hover
+{
+	color:#f96125;
+}
+
+.souSuoBox
+{
+	width:134px;
+	height:26px;
+	margin-top:64px;
+	background-color:#bd4601;
+	float:left
+}
+
+.souSuo
+{
+	border:1px solid #bd4601;
+	margin-top:64px;
+	height:24px;
+	width:48px;
+	color:#cfcfcf;
+	text-align:center;
+	line-height:24px;
+	font-size:14px;
+	float:left
+}
+
+/****************************»ÃµÆ¡ý********************************/
+
+
+.huanDengBox
+{
+	position:relative
+}
+
+.xianShi
+{
+	/*border:1px solid #0f0;*/
+	width:1990px;
+	height:754px;
+	position:relative;
+	overflow:hidden;
+}
+
+
+.huaGui
+{
+	position:absolute;
+	z-index:0;
+	width:13930px
+}
+
+.huaGui div
+{
+	height:754px;
+	float:left;
+}
+
+.jiantouz
+{
+	position:absolute;
+	top:220px;
+	left:70px;
+	cursor:pointer
+}
+
+.jiantouy
+{
+	position:absolute;
+	top:220px;
+	right:70px;
+	cursor:pointer
+}
+
+.small_huanDeng
+{
+	width:1420px;
+	position:absolute;
+	z-index:20;
+	top:610px;
+	left:300px
+}
+
+.small_huanDeng div
+{
+	border-bottom:2px solid #F60;
+	height:119px;
+	float:left;
+	margin-right:20px;
+	cursor:pointer
+}
+
+.small_huanDengBox
+{
+	background:#1a100b;
+	width:1990px;
+	height:169px;
+	position:absolute;
+	z-index:10;
+	top:585px
+}
+
+.xinXi
+{
+	width:389px;
+	height:184px;
+	background:#1a100b;
+	position:absolute;
+	top:280px;
+	left:300px
+}
+
+.xinXi1
+{
+	width:389px;
+	height:184px;
+	position:absolute;
+	top:280px;
+	left:300px
+}
+
+
+.p1
+{
+	margin-left:120px;
+	line-height:110px;
+	font-family:"Times New Roman", Times, serif;
+	color:#cfcfcf;
+}
+
+.p2
+{
+	margin-left:40px;
+	font-family:"ËÎÌå";
+	color:#bd4601;
+}
+
+/***********************Ñü************************/
+
+.yao
+{
+	width:1330px;
+	padding-top:60px;
+	margin:auto
+}
+
+.zuo_Box
+{
+	border:1px solid #bd4601;
+	float:left;
+	padding:40px;
+	width:840px;
+	padding-bottom:20px
+}
+
+.music_1
+{
+	font-size:30px;
+	line-height:60px;
+	border-bottom:1px solid #bd4601;
+	padding-left:10px;
+	margin-bottom:20px;
+}
+
+.zhuTi
+{
+	padding:20px;
+	font-size:16px;;
+	line-height:38px
+}
+
+
+
+/***********************ÓÒ¿ò************************/
+
+.you_box
+{
+	/*border:1px solid #cfcfcf;*/
+	width:400px;
+	float:right
+}
+
+
+/***********************×¨¼­************************/
+
+.zhuanJi_box
+{
+	padding:20px;
+	background:#342925;
+	height:600px
+}
+
+.zhuanJi_shang
+{
+	/*border:1px solid #a6a;*/
+	height:140px;
+	border-bottom:1px solid #cfcfcf;
+	padding-bottom:20px
+}
+
+.zhuanJi_shang img
+{
+	float:left;
+}
+
+.zhuanJi_list
+{
+	border:1px solid #5E3826;
+	height:138px;
+	width:123px;
+	float:right
+}
+
+.zhuanJi_list a
+{
+	display:block;
+}
+
+.zhuanJi_list1,.zhuanJi_list2,.zhuanJi_list3
+{
+	border:1px solid #5E3826;
+	height:44px;
+	text-align:center;
+	line-height:44px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.zhuanJi_xia
+{
+	/*border:1px solid #5E3826;*/
+}
+
+.boFang_list
+{
+	font-size:20px;
+	padding:26px 8px;
+	width:240px;
+	float:left
+}
+
+.boFang_list li
+{
+	margin-top:10px
+}
+
+.boFang_coin
+{
+	padding:23px 8px;
+	width:60px;
+	float:right
+}
+
+.boFang_coin li
+{
+	margin-top:17px;
+	position:relative
+}
+
+.boFang_coin div
+{
+	position:absolute;
+	top:0
+}
+
+.boFang_coin p
+{
+	position:absolute;
+	top:0
+}
+
+
+/***********************µçÓ°************************/
+
+.zhong
+{
+	height:182px
+}
+
+.movie_Box
+{
+	
+}
+
+.movie_Box p
+{
+	height:40px;
+	border-left:4px solid #bd4601;
+	/*border-top:1px solid #333;*/
+	background:#cfcfcf;
+	color:#292929;
+	text-align:center;
+	line-height:40px;
+	font-size:17px;
+	cursor:pointer
+}
+
+.movie_Box div
+{
+	height:315px;
+}
+
+/***********************bottom************************/
+
+
+.bottom_Box
+{
+	margin-top:150px;
+	position:relative;
+	left:50%;
+	margin-left:-995px;
+	width:1990px;
+	height:440px;
+	background:url(../img/bottom.jpg);
+}
+
+.bottom
+{
+	width:293px;
+	margin:auto;
+	padding-top:60px;
+	color:#cfcfcf;
+	font-size:18px;
+	text-align:center;
+	line-height:40px
+}
+
+.bottom img
+{
+	margin-bottom:30px
+}
+
+.copyR
+{
+	font-size:14px;
+}
+
+
+
+
+
+
+
